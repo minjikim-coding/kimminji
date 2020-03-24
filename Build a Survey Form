@@ -1,0 +1,50 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Favorite Pizza Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<div id="body">
+         
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+    <label id="number-label" for="number">
+    <p>Age:</p>
+    </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+  
+  <p>Select Favorite Sauce</p>
+  <select id="dropdown">
+    
+    <option value="BBQ">BBQ</option>
+    <option value="Chilli">Chilli</option>
+    <option value="Mayo">Mayo</option>
+    <option value="Ketchupt">Ketchup</option>
+    <option value="Mustard">Mustard</option>
+    
+  </select>
+  
+  <p>Select Favorite Topping</p>
+  
+
+  <input type="radio" name="Topping" value="1">Olive</input> 
+<br>
+  <input type="radio" name="Topping" value="2">Mushroom</input> 
+<br>
+  <input type="radio" name="Topping" value="3">Bacon</input> 
+<br>
+  <input type="radio" name="Topping" value="4">Pepperoni</input> 
+<br>
+  <input type="radio" name="Topping" value="5">Pineapple</input> 
