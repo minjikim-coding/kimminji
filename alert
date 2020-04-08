@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>sample3</title>
+  </head>
+  <body>
+    <h1>How to get input from JavaScript</h1>
+    <h2>Check the dialogs that JavaScript provides</h2>
+    
+    <ol>
+      <li>Confirm button and message output alert()</li>
+      <button onclick="showAlert();">alert confirm</button>
+      
+      <li>Confirm and cancel buttons and print messages confirm()</li>
+      <button onclick="showConfirm();">confirm confirm</button>
+      <p id="result">return result confirm</p>
+      
+      <li>Provides a message, text field, confirmation, and cancellation buttons prompt()</li>
+      <button onclick="showPrommpt();">prompt confirm</button>
+      <p id="result2">Check return value</p>
+    </ol>
+    
+  </body>
+</html>
+
+function showAlert(){
+        alert("This is a notification window that only prints messages.");
+}
+function showConfirm(){
+         ver returnValue = window.confirm(
+              "Press OK if you agree or Cancel if you disagree.");
+         document.getElementById("result").innerHTML = 
+                  "Return value : " + returnValue;
+}      
+
+
+function showPrompt(){
+        var inputValue = window.prompt("Please enter your address.");
+        document.getElementBtId("result2".innerHTML =
+                 "entered address : " + inputValue;
+}
